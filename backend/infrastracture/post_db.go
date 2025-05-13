@@ -7,7 +7,7 @@ import (
 
 func NewPostDB() (*sql.DB, error) {
 
-	connectionString := "postgresql://chera_mihiretu:1234556@localhost:5432/ethiopia_market_of_digitals?sslmode=disable"
+	connectionString := "postgresql://chera_mihiretu:123456@localhost:5432/ethiopia_market_of_digitals?sslmode=disable"
 
 	db, err := sql.Open("postgres", connectionString)
 	if err != nil {
